@@ -4,7 +4,9 @@
 Gradient descent is an iterative machine learning optimization algorithm to reduce the cost function so that we have models that makes accurate predictions.
 
 Cost function(C) or Loss function measures the difference between the actual output and predicted output from the model. Cost function are a convex function.
+
 ![Logo](https://latex.codecogs.com/svg.image?\theta&space;_{j}&space;:=&space;\theta&space;_{j}&space;-&space;\alpha&space;\frac{\partial&space;}{\partial&space;\theta&space;_{j}}J\left&space;(&space;\theta&space;&space;\right&space;))
+
 There’s an important parameter α which scales the gradient and thus controls the step size. In machine learning, it is called learning rate and have a strong influence on performance.
 
 1. The smaller learning rate the longer GD converges, or may reach maximum iteration before reaching the optimum point
