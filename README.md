@@ -150,7 +150,3 @@ As we take a batch with different samples,it reduces the noise which is variance
 * Helpful to estimate the approximate location of the actual minimum
 #### Disadvantages of Mini Batch Gradient Descent
 * Loss is computed for each mini batch and hence total loss needs to be accumulated across all mini batches
-#### 
-#### 
-The animation below shows steps taken by the GD algorithm for learning rates of 0.1 and 0.8. As you see, for the smaller learning rate, as the algorithm approaches the minimum the steps are getting gradually smaller. For a bigger learning rate, it is jumping from one side to another before converging.
-![Logo](https://miro.medium.com/max/720/1*v5bc1TzeMKpzTAgorjOoHQ.gif)
